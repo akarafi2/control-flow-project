@@ -129,7 +129,7 @@ public class ControlFlow {
 	public static int lotteryNumber1(int model, int lucky) {
 		int number1 = model + lucky;
 
-		while (number1 > 66) {
+		while (number1 > 65) {
 			number1 -= 65;
 		}
 		;
